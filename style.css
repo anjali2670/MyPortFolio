@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
+  /* list-style: none; */
   text-decoration: none;
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
@@ -83,6 +83,7 @@ header.shadow {
                                    
 .navbar {
   display: flex;
+  list-style: none;
 }
                                    
 .navbar a {
@@ -90,6 +91,7 @@ header.shadow {
   padding: 10px 20px;
   color: var(--text-color);
   font-weight: 500;
+  
 }
                                    
 .navbar a:hover {
